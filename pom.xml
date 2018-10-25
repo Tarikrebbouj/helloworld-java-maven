@@ -39,16 +39,18 @@
 	</build>
   
 <distributionManagement>
-    <repository>
-        <id>00321bca3728</id>
-        <name>00321bca3728-releases</name>
-        <url>http://13.126.184.229:8085/artifactory/verizon</url>
-    </repository>
-    <snapshotRepository>
-        <id>00321bca3728</id>
-        <name>00321bca3728-snapshots</name>
-        <url>http://13.126.184.229:8085/artifactory/verizon</url>
-    </snapshotRepository>
+	<repository>
+		<id>deployment</id>
+		<name>Internal Releases</name>
+		<url>http://18.213.192.127:8081/nexus/content/repositories/mph/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>deployment</id>
+		<name>Internal Releases</name>
+		<url>http://18.213.192.127:8081/nexus/content/repositories/mphsnap/</url>
+	</snapshotRepository>
+
 </distributionManagement>
 
 
